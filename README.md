@@ -2,16 +2,16 @@
 ## Datormācības kursa elektroniskā klade
 
 
-Lai atvērtu terminālu- **ctr+alt+T
+Lai atvērtu terminālu- **ctr+alt+T**
 
 
-Jāraksta *firefox 
+Jāraksta *firefox* 
 
 
-Jāraksta adrese **https://edx2.etf.rtu.lv/portal 
+Jāraksta adrese **https://edx2.etf.rtu.lv/portal** 
 
 
-*Sakai
+*Sakai*
 
 
 **ctrl+L** attīra logu
@@ -20,13 +20,13 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal
 **history**- parāda komandu vēsturi 
 
 
-**ctrl+alt+F1(F2,F7)
+**ctrl+alt+F1(F2,F7)**
 
 
 **ls** - saraksts, kas pieejams
 
 
-*bash - dialekts
+*bash*- dialekts
 
 
 **ctrl+shift+T** lai visu nodzēstu 
@@ -38,4 +38,4 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal
 **pwd** parāda savu atrašanās vietu
 
 
-**shell** valoda, kurā runājam ar *linux
+**shell** valoda, kurā runājam ar *linux*
