@@ -39,3 +39,11 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 
 
 **shell** valoda, kurā runājam ar *linux*
+
+
+**nano** teksta redaktors
+
+
+**cat** faili tiek attēloti kā teksta faili
+
+
