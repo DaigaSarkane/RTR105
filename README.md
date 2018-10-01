@@ -19,8 +19,9 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **mkdir** Mape  
 **cd** Mape  
 **mkdir** MapeMapee  
-**home/user** pilā vai absolūtā adrese  
-
-
-
+**home/user** pilnā vai absolūtā adrese  
+**python**  
+**ipython** draudzīgāka vide nekā python  
+**idle &**  
+**chmod 764**  
 
