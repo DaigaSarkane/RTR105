@@ -24,4 +24,14 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **ipython** draudzīgāka vide nekā python  
 **idle &**  
 **chmod 764**  
+**ctrl+shift+t** atver jaunu logu  
+**string jeb vārdu constants lieto apostropus, bet ciparu nelieto, raksta kā ir**  
+**variable** ir nosaukta vieta atmiņā, kur lietotājs var piešķirt vērtību un vēlāk to izmantot, piemēram x = 2  
+**python variable name rules** jāsākas ar vārdu vai apakšsvītru_. var sastāvēt no vārdiem, cipariem un apakšsvītrām  
+**=** piešķir vērtību  
+**type** nosaka, vai tas ir integer vai string  
+**+** saskaita, ja ir skaitļi, bet pievieno vārdu, ja ir vārdi  
+**type()** šādi var uzzināt, kāds tips tiek lietots  
+**integers** ir veseli skaitļi  
+**floating point numbers** ir decimālskaitļi  
 
