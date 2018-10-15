@@ -34,4 +34,15 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **type()** šādi var uzzināt, kāds tips tiek lietots  
 **integers** ir veseli skaitļi  
 **floating point numbers** ir decimālskaitļi  
+**<** less than  
+**<=** less than or equal to  
+**==** equal to  
+**>=** greater than equal to  
+**>** greater than  
+**!=** not equal  
+**increase/maintain after if or for**  
+**decrease(samazināt) to indicate end of block**  
+**if the code in the try works - the except is skipped**  
+**if the code in the try fails - it jumps to the except section**  
+**multi way decisions using elif**  
 
