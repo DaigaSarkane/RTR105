@@ -45,4 +45,7 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **if the code in the try works - the except is skipped**  
 **if the code in the try fails - it jumps to the except section**  
 **multi way decisions using elif**  
+**we can define more than one parameter in the function definiton**  
+**an argument is a value we pass into the function as its input when we call the function**  
+**we create a new function using the def keyboard followed by optional parameters in parentheses**  
 
