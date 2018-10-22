@@ -48,4 +48,5 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **we can define more than one parameter in the function definiton**  
 **an argument is a value we pass into the function as its input when we call the function**  
 **we create a new function using the def keyboard followed by optional parameters in parentheses**  
+lai pārtrauktu bezgalīgu darbību, jāspiež **ctrl+c**  
 
