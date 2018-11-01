@@ -49,4 +49,7 @@ Jāraksta adrese **https://edx2.etf.rtu.lv/portal**
 **an argument is a value we pass into the function as its input when we call the function**  
 **we create a new function using the def keyboard followed by optional parameters in parentheses**  
 lai pārtrauktu bezgalīgu darbību, jāspiež **ctrl+c**  
-
+** saglabāt vēsturi history > history_yyymmdd.txt**  
+**repozitāriju ielādēt ./git-upload yyyymmdd_hh_mm**  
+**ja vajag nodzēst repozitāriju vecās mapes rm -rf RTR105**  
+**lejupeilādēt savu repozitāriju git clone https://github.com/DaigaSarkane/RTR105**  
