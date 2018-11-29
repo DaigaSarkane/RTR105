@@ -1,0 +1,15 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  rm -rf RTR105
+    4  cd RTR105
+    5  LS -L
+    6  ls -l
+    7  git upload https://github.com/DaigaSarkane/RTR105
+    8  git clone  https://github.com/DaigaSarkane/RTR105
+    9  cd RTR105
+   10  idle &
+   11  nano dgr_20181129.txt
+   12  ls -lt
+   13  mv ../figure_1.png ./
+   14  ls -lt
+   15  history > history_20181129.txt
