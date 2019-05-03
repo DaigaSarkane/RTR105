@@ -39,3 +39,51 @@ for tolc = tol
     fprintf('| tol=%0.3f | vvquad=%f | efquad=%f|\n',tolc,xvidquad,xefquad);
 end
 fprintf('_______________________________________________\n')
+
+%% īstās vidējās vērtības atrašana
+syms t_sin 
+A0=0; A=2.5; T = (2.5-1)/3.5; f=1/T;
+delay = 1;
+y_sin = A0+A*sin(2*pi*f*(t_sin-delay));
+int_sin = int(y_sin,t_sin,1,2.5);
+
+syms t_saw
+k = (2.5-(-2.5))/(6.5-8);
+delay = 6.5+(8-6.5)/2; 
+y_saw = k*(t_saw-delay);
+int_saw = int(y_saw,t_saw,6.5,8);
+
+syms t_const
+y_const = 2.5+0*t_const;
+int_const = int(y_const,t_const,4.5,6.5);
+
+
+syms t_zero
+y_zero = 0+0*t_zero;
+int_zero = int(y_zero,t_zero,0,1);
+
+syms t_noise
+y_noise = 0*t_noise;
+int_noise = int(y_noise,t_noise,2.5,4.5);
+
+int_sum = int_noise+int_zero+int_const+int_sin+int_saw;
+t = 0:0.01:8;
+vid_vert_patiesa = 1/(t(end)-t(1))*int_sum
+
+%% Aprēķināsim īso efektīvo vērtību
+int_sin = int(y_sin^2,t_sin,1,2.5);
+int_saw = int(y_saw^2,t_saw,6.5,8);
+int_const = int(y_const^2,t_const,4.5,6.5);
+int_noise = int(y_noise^2,t_noise,2.5,4.5);
+int_zero = int(y_zero^2,t_zero,0,1);
+int_sum = int_noise+int_zero+int_const+int_sin+int_saw;
+ef_vert_patiesa = sqrt(1/(t(end)-t(1))*int_sum)
+ef_vert_patiesa = double(ef_vert_patiesa)
+
+%% Pieliksim bildes no simulinka
+%
+% <<../a.jpg>>
+%
+% <<../b.jpg>>
+%
+
